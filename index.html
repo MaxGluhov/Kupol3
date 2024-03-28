@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>SILENTIUM TERMINAL</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <section class="section1">
+        <div class="logo_silentium"><img src="./img/logo.svg" alt="" class="logo"></div>
+
+        <div class="main">
+            <div class="main_screen">
+
+                <img src="./img/name.png" alt="" class="name">
+            </div>
+            <div class="container" id="cont1">
+                <div class="icon">
+                    <img src="./img/dot.svg" class="main_icon">
+                </div>
+                <div class="content">
+                    <p class="discription1">Произошел сбой поля шумовой защиты купола, интерфейс вышел из строя.
+                        Используй
+                        оставшийся функционал,
+                        чтобы настроить зону.</p>
+                    <img src="./img/first.png" alt="Photo" class="photo">
+                    <button class="btn" id="btn_first">ПРИСТУПИТЬ >></button>
+                </div>
+            </div>
+            <div class="container" id="cont2">
+                <div class="icon">
+                    <img src="./img/dot.svg" class="main_icon">
+                </div>
+                <div class="content">
+                    <p class="discription1">Расположи куполы тишины внутри помеченной территории района.
+                    </p>
+                    <img src="./img/second.png" alt="Photo" class="photo">
+                    <button class="btn" id="btn_second">ПРИСТУПИТЬ >></button>
+                </div>
+            </div>
+            <div class="container" id="cont3">
+                <div class="icon">
+                    <img src="./img/dot.svg" class="main_icon">
+                </div>
+                <div class="content">
+                    <p class="discription1">Настрой параметры и модель купола в новом районе.</p>
+                    <img src="./img/third.png" alt="Photo" class="photo">
+                    <button class="btn" id="btn_third">ПРИСТУПИТЬ >></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="section2"> <!-- Второй экран с взаимодействиями -->
+        <div class="logo_silentium"><img src="./img/logo.svg" alt="" class="logo"></div>
+        <div class="main" id="first_main">
+            <div class="main_screen" id="first_screen">
+                <div class="noise_massive">
+                    <img src="./img/Polygon.png" alt="" id="pol1" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol2" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol3" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol4" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol5" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol6" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol7" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol8" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol9" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol10" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol11" class="pol">
+                    <img src="./img/Polygon.png" alt="" id="pol12" class="pol">
+                </div>
+                <img src="./img/Kupol.png" alt="" class="Kupol">
+            </div>
+            <div class="main_screen" id="first_screen2">
+
+                <div class="container" id="cont4">
+                    <div class="icon">
+                        <img src="./img/dot.svg" class="main_icon">
+                    </div>
+                    <div class="content">
+                        <p class="discription1">Произошел сбой поля шумовой защиты купола, интерфейс вышел из строя.
+                            Используй
+                            оставшийся функционал,
+                            чтобы настроить зону.</p>
+                    </div>
+                </div>
+                <div class="first_bar">
+                    <div class="PlusMinus">
+                        <button id="speedUpButton" class="btn1">-</button>
+                        <button id="slowDownButton" class="btn1">+</button>
+
+                    </div>
+                    <button id="turn" class="btn1">ВКЛЮЧИТЬ</button>
+                    <button id="done" class="btn1">ГОТОВО</button>
+                </div>
+
+
+    </section>
+    <section class="section3"> <!-- Третий экран с взаимодействиями -->
+        <div class="logo_silentium"><img src="./img/logo.svg" alt="" class="logo"></div>
+
+        <div class="main" id="second_main">
+            <div class="main_screen1"></div>
+            <img src="./img/zone.svg" alt="" class="zone">
+            <div class="container" id="cont5">
+                <div class="icon">
+                    <img src="./img/dot.svg" class="main_icon">
+                </div>
+                <div class="content">
+                    <p class="discription1">Расположи куполы тишины внутри помеченной территории района.</p>
+                </div>
+            </div>
+            <div class="second_bar">
+                <div class="Kupoly">
+                    <img src="./img/Kupol.png" alt="" id="kupol1" class="Kupoly_all" draggable="true">
+                    <img src="./img/Kupol.png" alt="" id="kupol2" class="Kupoly_all" draggable="true">
+                    <img src="./img/Kupol.png" alt="" id="kupol3" class="Kupoly_all" draggable="true">
+                </div>
+                <button id="turn1" class="btn1">ВКЛЮЧИТЬ</button>
+                <button id="done1" class="btn1">ГОТОВО</button>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="section4"> <!-- Четвертый экран с взаимодействиями -->
+        <div class="logo_silentium"><img src="./img/logo.svg" alt="" class="logo"></div>
+
+        <div class="main" id="third_screen">
+            <div class="main_screen2">
+                <div class="container" id="cont6">
+                    <div class="icon">
+                        <img src="./img/dot.svg" class="main_icon">
+                    </div>
+                    <div class="content">
+                        <p class="discription1">Настрой параметры и модель купола в новом районе.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="massive">
+                <img src="./img/kupX.png" alt="" id="kupX" class="kup">
+                <img src="./img/kupY.png" alt="" id="kupY" class="kup">
+                <img src="./img/kupZ.png" alt="" id="kupZ" class="kup">
+            </div>
+            <div class="third_bar">
+                <div class="versions">
+                    <button id="X" class="btn1">Купол V1</button>
+                    <button id="Y" class="btn1">Купол V2</button>
+                    <button id="Z" class="btn1">Купол V2.5</button>
+                </div>
+                <button id="turn2" class="btn1">ВКЛЮЧИТЬ</button>
+                <button id="done2" class="btn1">ГОТОВО</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="./js/y.js"></script>
+    <script src="./js/display.js"></script>
+    <script src="./js/test.js"></script>
+    <script src="./js/second.js"></script>
+    <script src="./js/move.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        const containers = document.querySelectorAll('.container');
+
+        containers.forEach(container => {
+            const icon = container.querySelector('.icon');
+            const content = container.querySelector('.content');
+            const icon_main = container.querySelector('.main_icon');
+
+            let isOpen = false;
+
+            icon.addEventListener('click', () => {
+                if (isOpen) {
+                    icon_main.style.transform = 'none';
+                    content.style.display = 'none';
+                    isOpen = false;
+                } else {
+                    icon_main.style.transform = 'rotate(45deg)';
+                    content.style.display = 'block';
+                    isOpen = true;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

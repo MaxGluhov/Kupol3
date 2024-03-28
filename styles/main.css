@@ -1,0 +1,553 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.logo_silentium {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 10vw;
+    padding: 2vw;
+    position: absolute;
+    z-index: 2;
+    margin-top: 1vh;
+}
+
+.main_screen {
+    background-image: url(../img/MOSHED-2024-3-18-13-32-5.gif);
+    width: 98vw;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    margin-top: -4vh;
+
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    margin: auto;
+    display: block;
+    width: 63.91vw;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+    width: 1vw;
+}
+
+#cont1 {
+    margin-top: 20vh;
+}
+
+#cont2 {
+    margin-top: 30vh;
+    margin-right: 70vw;
+}
+
+#cont3 {
+    margin-top: 60vh;
+    margin-left: 30vw;
+}
+
+.icon {
+    height: 1.18vw;
+    width: 1.18vw;
+    padding: 1vw;
+    background-color: black;
+}
+
+
+.main_icon {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: none;
+    width: 27.97vw;
+    background-color: black;
+    padding: 10px;
+    justify-content: left;
+    margin-top: -3.20vw;
+    padding-top: 3vw;
+}
+
+.content img {
+    margin-top: 1vh;
+    width: 100%;
+}
+
+.btn {
+    background-color: #FBFF24;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 1vh;
+    cursor: pointer;
+    font: 200;
+    font-size: 1vw;
+    font-family: IBM;
+}
+
+.btn1 {
+    background-color: black;
+    color: #FBFF24;
+    border: 2px solid #FBFF24;
+    padding: 5px 10px;
+    margin-top: 1vh;
+    cursor: pointer;
+    font: 200;
+    font-size: 1vw;
+    font-family: IBM;
+    position: absolute;
+}
+
+.btn1:hover {
+    background-color: #FBFF24;
+    color: black;
+    border: 2px solid #FBFF24;
+}
+
+
+.discription1 {
+    font-size: 1vw;
+    font-family: IBM;
+    color: #FBFF24;
+    line-height: 150%;
+}
+
+/* Второй экран */
+
+#first_screen {
+    background-image: url(../img/back_first.gif);
+    width: 50vw;
+    height: 95vh;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+
+}
+
+.Kupol {
+    position: absolute;
+    width: 20vw;
+    margin-top: 27.778vh;
+    opacity: 0.1;
+    filter: brightness(0);
+
+}
+
+.noise_massive {
+    position: absolute;
+    width: 40vw;
+    margin-top: 27.778vh;
+}
+
+.pol {
+    width: 6vw;
+    rotate: 20deg;
+    opacity: 1;
+}
+
+#pol1 {
+    rotate: 40deg;
+    margin-top: -5vh;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+#pol2 {
+    rotate: 10deg;
+    margin-top: -8vh;
+    margin-left: 10vw;
+    position: absolute;
+}
+
+#pol3 {
+    rotate: 11deg;
+    margin-top: 30vh;
+    margin-left: 2vw;
+    position: absolute;
+}
+
+#pol4 {
+    rotate: 28deg;
+    margin-top: 40vh;
+    margin-left: 15vw;
+    position: absolute;
+}
+
+#pol5 {
+    rotate: 60deg;
+    margin-top: 10vh;
+    margin-left: 3vw;
+    position: absolute;
+}
+
+#pol6 {
+    rotate: 32deg;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    position: absolute;
+}
+
+#pol7 {
+    rotate: 41deg;
+    margin-top: -7vh;
+    margin-left: 25vw;
+    position: absolute;
+}
+
+#pol8 {
+    rotate: 1deg;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    position: absolute;
+}
+
+#pol9 {
+    rotate: 8deg;
+    margin-top: -20vh;
+    margin-left: 16vw;
+    position: absolute;
+}
+
+#pol10 {
+    rotate: 5deg;
+    margin-top: -8vh;
+    margin-left: 32vw;
+    position: absolute;
+}
+
+#pol11 {
+    rotate: 25deg;
+    margin-top: 2vh;
+    margin-left: 35vw;
+    position: absolute;
+}
+
+#pol12 {
+    rotate: 15deg;
+    margin-top: 30vh;
+    margin-left: 34vw;
+    position: absolute;
+}
+
+
+#first_screen2 {
+    background-image: url(../img/back_first2.png);
+    width: 50vw;
+    height: 95vh;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    display: flex;
+    margin-top: 2vh;
+    margin-right: 1;
+}
+
+#cont4 {
+    margin-top: 10vh;
+    margin-right: 40vw;
+}
+
+.section2 {
+    display: none;
+}
+
+#pol1 {
+    animation: movePol 0.66s ease infinite;
+}
+
+#pol2 {
+    animation: movePol 0.45s ease infinite;
+}
+
+#pol3 {
+    animation: movePol 0.2s ease infinite;
+}
+
+#pol4 {
+    animation: movePol1 0.6s ease infinite;
+}
+
+#pol5 {
+    animation: movePol 0.2s ease infinite;
+}
+
+#pol6 {
+    animation: movePol 0.65s ease infinite;
+}
+
+#pol7 {
+    animation: movePol1 0.7s ease infinite;
+}
+
+#pol8 {
+    animation: movePol1 0.8s ease infinite;
+}
+
+#pol9 {
+    animation: movePol 0.5s ease infinite;
+}
+
+#pol10 {
+    animation: movePol 0.2s ease infinite;
+}
+
+#pol11 {
+    animation: movePol1 0.3s ease infinite;
+}
+
+#pol12 {
+    animation: movePol 0.18s ease infinite;
+}
+
+@keyframes movePol {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: translateY(-1vh) rotate(-350deg);
+    }
+
+    70% {
+        transform: translateY(2vh);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes movePol1 {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: rotate(-40deg);
+    }
+
+    50% {
+        transform: translateY(-2vh) rotate(-180deg);
+    }
+
+    70% {
+        transform: translateY(4vh);
+
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+#speedUpButton {
+    position: relative;
+}
+
+#slowDownButton {
+    position: relative;
+}
+
+#done {
+    position: relative;
+    margin-top: 2vh;
+}
+
+#turn {
+    position: relative;
+    margin-top: 2vh;
+}
+
+.first_bar {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-top: 70vh;
+}
+
+.PlusMinus {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+/* Третий экран */
+
+.section3 {
+    display: none;
+}
+
+.main_screen1 {
+    background-image: url(../img/back_second.png);
+    width: 98vw;
+    height: 94vh;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    margin-top: 2vh;
+
+}
+
+#cont5 {
+    margin-top: 75vh;
+    margin-right: 80vw;
+}
+
+.zone {
+    margin-top: 5vh;
+    width: 85vw;
+    position: absolute;
+}
+
+.second_bar {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-top: 75vh;
+    position: absolute;
+    margin-left: 50vw;
+    width: 23vw;
+}
+
+.Kupoly_all {
+    width: 7vw;
+    cursor: grab;
+    position: absolute;
+    filter: brightness(0);
+    margin-top: -13vh;
+}
+
+#kupol1 {
+    margin-left: 0vw;
+}
+
+#kupol2 {
+    margin-left: 8vw;
+}
+
+#kupol3 {
+    margin-left: 16vw;
+}
+
+#done1 {
+    position: relative;
+    margin-top: 2vh;
+}
+
+#turn1 {
+    position: relative;
+    margin-top: 2vh;
+}
+
+/* Четвертый экран */
+
+.section4 {
+    display: none;
+}
+
+.main_screen2 {
+    background-image: url(../img/back_third.gif);
+    width: 98vw;
+    height: 94vh;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    display: flex;
+    margin-top: 2vh;
+
+}
+
+#cont6 {
+    margin-top: 10vh;
+    margin-right: 90vw;
+}
+
+.kup {
+    position: absolute;
+    width: 40vw;
+    height: 42vh;
+}
+
+.massive {
+    position: absolute;
+    margin-top: 54vh;
+    margin-right: 80vw;
+}
+
+.third_bar {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-top: -10vh;
+    position: absolute;
+    margin-left: 50vw;
+    width: 23vw;
+}
+
+#done2 {
+    position: relative;
+    margin-top: 2vh;
+}
+
+#turn2 {
+    position: relative;
+    margin-top: 2vh;
+}
+
+.versions {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    margin-top: 75vh;
+    width: 23vw;
+}
+
+#X,
+#Z,
+#Y {
+    position: relative;
+    margin-top: 2vh;
+}
+
+#kupX {
+    filter: brightness(0);
+    display: block;
+}
+
+#kupY {
+    filter: brightness(0);
+    display: none;
+}
+
+#kupZ {
+    filter: brightness(0);
+    display: none;
+}

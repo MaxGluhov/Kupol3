@@ -1,0 +1,356 @@
+/* Desktop size 1366x768 WXGA */
+
+@media screen and (max-width: 1366px) {
+
+    .content {
+        margin-top: -3.16vw;
+    }
+
+    .btn1 {
+        border: 1px solid #FBFF24;
+    }
+
+    .btn1:hover {
+        border: 1px solid #FBFF24;
+    }
+
+    .zone {
+        margin-top: 15vh;
+        width: 90vw;
+    }
+
+    .second_bar {
+        margin-top: 80vh;
+    }
+
+    .Kupoly_all {
+        margin-top: -10vh;
+    }
+
+    .kup {
+        height: 35vh;
+    }
+
+    .massive {
+        position: absolute;
+        margin-top: 61vh;
+        margin-right: 80vw;
+    }
+
+}
+
+/* Desktop size 1024x768 XGA */
+
+@media screen and (max-width: 1024px) {
+    .btn1 {
+        border: 1px solid #FBFF24;
+    }
+
+    .btn1:hover {
+        border: 1px solid #FBFF24;
+    }
+
+    .zone {
+        margin-top: 15vh;
+        width: 90vw;
+    }
+
+    .Kupoly_all {
+        margin-top: -10vh;
+    }
+
+    .kup {
+        height: 35vh;
+    }
+
+    .massive {
+        position: absolute;
+        margin-top: 61vh;
+        margin-right: 80vw;
+    }
+
+}
+
+/* Desktop size 768x1024 */
+
+@media screen and (max-width: 768px) {
+    .icon {
+        height: 2vw;
+        width: 2vw;
+        padding: 2vw;
+    }
+
+    .content {
+        margin-top: -6vw;
+        padding-top: 7vw;
+    }
+
+    .discription1 {
+        font-size: 1.5vw;
+    }
+
+    .btn {
+        font-size: 1.5vw;
+        padding: 10px 10px;
+    }
+
+    .btn1 {
+        font-size: 1.5vw;
+        padding: 10px 10px;
+    }
+
+    #first_main {
+        flex-direction: column;
+        display: flex;
+        justify-content: baseline;
+    }
+
+    #first_screen {
+        width: 98vw;
+        height: 45vh;
+        margin-top: -6vh;
+        margin-right: 1vw;
+        margin-left: 1vw;
+
+    }
+
+    #first_screen2 {
+        width: 98vw;
+        height: 45vh;
+        margin-top: 2vh;
+        margin-right: 1;
+        margin-left: 1vw;
+    }
+
+    .first_bar {
+        margin-top: 30vh;
+    }
+
+    .PlusMinus {
+        width: 50vw;
+    }
+
+    #done {
+        position: relative;
+        margin-top: 1vh;
+    }
+
+    #turn {
+        position: relative;
+        margin-top: 1vh;
+    }
+
+    .Kupol {
+        margin-top: 15vh;
+    }
+
+    .noise_massive {
+        margin-top: 15vh;
+    }
+
+    #pol3 {
+        rotate: 11deg;
+        margin-top: 17vh;
+        margin-left: 2vw;
+        position: absolute;
+    }
+
+    #pol4 {
+        rotate: 28deg;
+        margin-top: 19vh;
+        margin-left: 15vw;
+        position: absolute;
+    }
+
+    #pol6 {
+        rotate: 32deg;
+        margin-top: 12vh;
+        margin-left: 5vw;
+        position: absolute;
+    }
+
+    #pol8 {
+        rotate: 1deg;
+        margin-top: 13vh;
+        margin-left: 30vw;
+        position: absolute;
+    }
+
+    #pol12 {
+        rotate: 15deg;
+        margin-top: 18vh;
+        margin-left: 34vw;
+        position: absolute;
+    }
+
+    #pol9 {
+        rotate: 8deg;
+        margin-top: -10vh;
+        margin-left: 16vw;
+        position: absolute;
+    }
+
+    #pol10 {
+        rotate: 5deg;
+        margin-top: -4vh;
+        margin-left: 32vw;
+        position: absolute;
+    }
+
+    #pol1 {
+        rotate: 40deg;
+        margin-top: -3vh;
+        margin-left: 2vw;
+        position: absolute;
+    }
+
+    #pol2 {
+        rotate: 10deg;
+        margin-top: -4vh;
+        margin-left: 10vw;
+        position: absolute;
+    }
+
+    .zone {
+        margin-top: 25vh;
+        width: 120vw;
+        rotate: 90deg;
+    }
+
+    .Kupoly_all {
+        margin-top: -8vh;
+    }
+
+    .Kupoly_all {
+        width: 10vw;
+    }
+
+    #kupol1 {
+        margin-left: 0vw;
+    }
+
+    #kupol2 {
+        margin-left: 12vw;
+    }
+
+    #kupol3 {
+        margin-left: 24vw;
+    }
+
+    .second_bar {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin-top: 75vh;
+        position: absolute;
+        margin-left: 0vw;
+        width: 34vw;
+    }
+
+    .kup {
+        position: absolute;
+        width: 52vw;
+        height: 26vh;
+    }
+
+    .massive {
+        position: absolute;
+        margin-top: 24vh;
+        margin-left: 28vw;
+    }
+
+    .versions {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin-top: 75vh;
+        width: 50vw;
+    }
+
+    #done2 {
+        position: relative;
+        margin-top: 1vh;
+        width: 50vw;
+    }
+
+    #turn2 {
+        position: relative;
+        margin-top: 1vh;
+        width: 50vw;
+    }
+
+    .third_bar {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin-top: -10vh;
+        margin-left: -28vw;
+    }
+
+}
+
+/* Desktop size 360x640 */
+
+@media screen and (max-width: 360px) {
+
+    .logo {
+        scale: 50%;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        height: 3vw;
+        width: 3vw;
+        padding: 3vw;
+    }
+
+    .content {
+        margin-top: -9vw;
+        padding-top: 10vw;
+    }
+
+    .discription1 {
+        font-size: 2.5vw;
+    }
+
+    .btn {
+        font-size: 2.5vw;
+        padding: 10px 10px;
+    }
+
+    .btn1 {
+        font-size: 2.5vw;
+        padding: 10px 20px;
+    }
+
+    .kup {
+        position: absolute;
+        width: 52vw;
+        height: 19vh;
+    }
+
+    .third_bar {
+        display: flex;
+        justify-content: baseline;
+        flex-direction: column;
+        margin-top: -20vh;
+        margin-left: -26vw;
+    }
+
+    .first_bar {
+        margin-top: 24vh;
+        margin-left: 40vw;
+    }
+
+    #cont4 {
+        margin-top: 2vh;
+        margin-right: 80vw;
+        position: absolute;
+    }
+
+    #cont5 {
+        margin-top: 20vh;
+        margin-right: 80vw;
+    }
+}
